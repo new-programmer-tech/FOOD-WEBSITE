@@ -15,7 +15,6 @@
     src: url(../fonts/Raleway-bold.ttf);
 }
 
-
 @font-face {
     font-family:  "Raleway-SemiBold";
     src: url(../fonts/Raleway-SemiBold.ttf);
@@ -55,7 +54,6 @@ body{
     -webkit-font-smoothing:antialiased;
     font-family: "Raleway-regular";
 }
-
 
 .container {
     width:100%;
@@ -110,10 +108,10 @@ header.topbar .container
     align-items: center;
 }
 
-.auth{
+.auth
+{
     display: flex;
     padding:10px;
-    
 }
 
 .icon
@@ -130,7 +128,8 @@ header.topbar .container
     margin-right: 0.35rem;
 }
 
-/* UTILITY CLASS */
+/* --------------------------------------UTILITY CLASS------------------------------------- */
+
 .flex
 {
     display:flex;
@@ -139,7 +138,6 @@ header.topbar .container
 .justify-between
 {
     justify-content:space-between;
-
 }
 
 .items-center{
@@ -147,12 +145,13 @@ header.topbar .container
 }
 
 
-
 nav.top .contact h5,  nav.top .time h5{
     font-family:"Raleway-black";
     margin-top:0.25rem;
 }
-nav.top .contact h6, nav.top .time h6{
+
+nav.top .contact h6, nav.top .time h6
+{
   font-family:"Raleway-medium";
   letter-spacing: 0.055rem;
   font-size:0.75rem;
@@ -212,8 +211,7 @@ header.hero{
     background-repeat: no-repeat;
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
-   
-}
+  }
 
 header.hero .container{
     position: relative;;
@@ -239,10 +237,7 @@ header.hero p{
     font-size:1rem;
     margin-bottom:2rem;
     width:50%;
-    line-height:1.5;
-
-}
-
+    line-height:1.5;}
 
 
 .btn-r
@@ -260,7 +255,6 @@ header.hero p{
     cursor: pointer;
     transition:all 0.5s ease;
     border:1px solid transparent;
-    
 }
 
 .btn-primary{
@@ -271,7 +265,6 @@ header.hero p{
 .btn-secondary{
     background-color:#232B38;
     color:#FEFEFE;
-    
 }
 
 .btn-primary:hover{
@@ -297,7 +290,8 @@ header.hero p{
 }
 
 /*------------------------------- SLIDER --------------------------------*/
- section{
+ 
+section{
      padding:4rem 0;
  }
 
@@ -317,7 +311,6 @@ header.hero p{
     background:var(--heaven);
     padding:3rem 0;
     border-radius:4px; 
-    
 }
 
 .section-heading{
@@ -325,7 +318,6 @@ header.hero p{
     text-align:center;
     position: relative;
     margin-bottom: 4rem;
-
 }
 
 .section-heading:after{
@@ -383,7 +375,6 @@ section.top-products .food-slider .food-card button
 
 section.top-products .food-slider .food-card button:hover{
     background:#EEBF00;
-   
 }
 
 .cart-icon{
